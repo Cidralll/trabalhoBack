@@ -6,8 +6,8 @@ const bcrypt = require("bcrypt");
 const saltRounds = 10;
 
 const db = mysql.createPool({
-    host: "localhost",
-    port:30306,
+    host: "172.30.20.10",
+    port:3306,
     user: "root",
     password: "SenhaDoRoot",
     database: "listaCompras"
