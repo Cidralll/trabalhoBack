@@ -199,6 +199,6 @@ app.post('/update/item/cart', (req, res) => {
 
 
 
-app.listen(3333, () => {
+app.listen(3000, () => {
     console.log('Servidor rodando na porta 3001')
 });
